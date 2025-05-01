@@ -1,0 +1,30 @@
+
+[train]
+
+model_path = "{}_num_{}_bsz_{}_lr_{}_trsz_{}_tsz_{}"
+
+gpu = "5"
+prefix = "0501my"
+
+# number of training instance # 35576  train ||  test  5954       
+num_train = 11200
+num_test = 1880
+num_points = 10000
+# batch size, based on the GPU memory
+batch_size = 4
+
+# learning
+lr = 0.0004
+eval_T = 1200
+num_epochs = 100
+mode = 0
+
+edge_loss_method = 7
+#  edge_loss_method:
+#  7-hub_std  sigma
+
+# pre model path for train
+pre_model_path = ""
+pre_opt_model_path = ""
+# pre-trained model path for test
+pretrain_model_path = ""
