@@ -68,7 +68,7 @@ Ensure the format within the `.h5` file matches the expected input.
 
 ### Experiments
 
-#### Network
+#### 1. Network
 
 - To train the PCER-Net:
 
@@ -86,7 +86,7 @@ To use the pre-trained model, set the `pretrain_model_path` in the configuration
 python my_test.py configs/config_modelnet_pcernet.yml 
 ```
 
-#### Reconstruction
+#### 2. Reconstruction
 
 Coming soon.
 
