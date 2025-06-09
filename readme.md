@@ -35,6 +35,7 @@ source activate pcernet
   
 - **ModelNet-edge**
   - Our ModelNet-edge dataset contains 654 models selected from [ModelNet10](https://modelnet.cs.princeton.edu/).
+  - We also provide the annotated original dataset in **ModelNet-edge-src**, which includes all edges, colored patch segmentation, edge points, and normals for each object, as well as normalization parameters, aimed at supporting advanced research.
   - Download Links:
     - [NJU Box](https://box.nju.edu.cn/d/803278340eae4d389202/)
     - [Baidu Netdisk](https://pan.baidu.com/s/1A2kVwFTK6HKGC45lim253w?pwd=evm5)
