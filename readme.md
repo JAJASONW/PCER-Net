@@ -103,6 +103,10 @@ python my_test.py configs/config_modelnet_pcernet.yml
   - open3d: 0.16
   - MATLAB: R2022a
 
+- **UI program**:
+  - We updated a UI for interactive edge reconstruction, enhancing efficiency and performance with new optimization operations.
+  - Ensure the installation of the MATLAB engine API for calling MATLAB from Python by using `import matlab.engine`.
+
 ------
 
 ### Acknowledgements
