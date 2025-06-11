@@ -89,11 +89,21 @@ python my_test.py configs/config_modelnet_pcernet.yml
 
 #### 2. Reconstruction
 
-Coming soon.
+- **Network Outputs**:
+  - Normals
+  - Edges
+  - Instances
+
+- **Reconstruction Process**:
+  - First, use `edge_intersection.py` from the `./reconstruction` to obtain lines and circles.
+  - Then, fit Bezier curves using MATLAB code.
+
+- **Versions**:
+  - numpy: 1.24
+  - open3d: 0.16
+  - MATLAB: R2022a
 
 ------
-
-
 
 ### Acknowledgements
 
