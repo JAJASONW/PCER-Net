@@ -104,8 +104,8 @@ python my_test.py configs/config_modelnet_pcernet.yml
   - MATLAB: R2022a
 
 - **UI program**:
-  - We updated a UI for interactive edge reconstruction, enhancing efficiency and performance with new optimization operations.
-  - Ensure the installation of the MATLAB engine API for calling MATLAB from Python by using `import matlab.engine`.
+  - We updated a UI for interactive edge reconstruction (`./reconstruction_gui/main.py`), enhancing efficiency and performance with new optimization operations.
+  - Ensure the installation of the MATLAB engine API due to the use of `import matlab.engine` for calling MATLAB from Python.
 
 ------
 
