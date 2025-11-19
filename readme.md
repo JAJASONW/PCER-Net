@@ -123,12 +123,12 @@ We would like to thank and acknowledge referenced codes from [ParSeNet](https://
 @ARTICLE{10909144,
   author={Li, Yuanqi and Wang, Hongshen and Liu, Yansong and Huang, Jingcheng and Liu, Shun and Huang, Chenyu and Guo, Jianwei and Guo, Jie and Guo, Yanwen},
   journal={IEEE Transactions on Visualization and Computer Graphics}, 
-  title={Deep Point Cloud Edge Reconstruction Via Surface Patch Segmentation}, 
+  title={Deep Point Cloud Edge Reconstruction via Surface Patch Segmentation}, 
   year={2025},
-  volume={},
-  number={},
-  pages={1-15},
-  keywords={Image edge detection;Solid modeling;Point cloud compression;Surface reconstruction;Fitting;Three-dimensional displays;Optimization;Surface fitting;Corner detection;Accuracy;Deep neural network;edge reconstruction;point cloud},
+  volume={31},
+  number={10},
+  pages={7463-7477},
+  keywords={Image edge detection;Solid modeling;Point cloud compression;Surface reconstruction;Fitting;Three-dimensional displays;Optimization;Surface fitting;Corner detection;Accuracy;Edge reconstruction;point cloud;deep neural network},
   doi={10.1109/TVCG.2025.3547411}}
 
 ```
